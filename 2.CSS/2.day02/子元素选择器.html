@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>子元素选择器</title>
+	<link rel="stylesheet" href="">
+	<style>
+		/*父级标签>子级标签 {属性名: 属性值;...}*/
+		div>strong {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<div>
+		<strong>子代</strong>
+		<strong>子代</strong>
+		<strong>子代</strong>
+	</div>
+
+	<div>
+		<p>
+			<strong>孙代</strong>
+			<strong>孙代</strong>
+			<strong>孙代</strong>
+		</p>
+	</div>
+
+</body>
+</html>
