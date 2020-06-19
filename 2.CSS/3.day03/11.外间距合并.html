@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外间距合并</title>
+    <style>
+        .top,
+        .bottom {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        .bottom {
+            background-color: green;
+            margin-bottom: 100px;;
+        }
+
+        .top {
+            margin-top: 50px;
+        }
+
+        /* 间距只有100px */
+        /* 解决：只给一个盒子加 */
+
+    </style>
+</head>
+<body>
+    <div class="bottom"></div>
+    <div class="top"></div>
+</body>
+</html>

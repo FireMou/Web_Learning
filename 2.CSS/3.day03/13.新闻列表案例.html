@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻列表</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 298px;
+            height: 198px;
+            border: 1px solid #cccccc;
+
+            /* 水平居中 */
+            margin: 100px auto;
+            background-image: url(images/line.jpg);
+
+            padding: 15px;
+        }
+        .box .title h2 {
+            font-size: 18px;
+            border-bottom: 1px solid #cccccc;
+            padding: 5px 0px;
+        }
+
+        li {
+            list-style: none;
+            background-image: url(images/arr.jpg);
+            height: 30px;
+            border-bottom: 1px dashed #cccccc;
+            background-repeat: no-repeat;
+            background-position: 5px center;
+        }
+        .box .table ul li a {
+            display: inline-block;
+            text-decoration: none;
+            height: 30px;
+            line-height: 30px;
+            margin-left: 20px;
+            color: #333333;
+            font-size: 14px;
+        }
+
+        .box .table ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+
+        <div class="title">
+            <h2>最新文章/New Articles</h2>
+        </div>
+
+        <div class="table">
+            <ul>
+                <li><a href="#">新闻1号</a></li>
+                <li><a href="#">新闻2号发</a></li>
+                <li><a href="#">新闻3号韩国的说法</a></li>
+                <li><a href="#">新闻4号法撒旦</a></li>
+                <li><a href="#">新闻5号方法的方式分为</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>

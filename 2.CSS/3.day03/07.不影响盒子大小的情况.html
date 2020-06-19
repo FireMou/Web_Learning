@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>不影响盒子大小</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        p {
+            /* 特殊情况，如果这个盒子没有宽度，就不会撑开盒子 */
+            height: 30px;
+            background-color: cyan;
+            padding-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>赎罪的码农</p>
+    </div>
+</body>
+</html>
