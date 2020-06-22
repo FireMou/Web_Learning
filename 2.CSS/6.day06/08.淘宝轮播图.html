@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08.淘宝轮播图</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .box {
+            position: relative;
+            background-color: red;
+            width: 520px;
+            height: 280px;
+            margin: 100px auto;
+        }
+
+        .left-arrow,
+        .right-arrow {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            width: 20px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, .3);
+            text-decoration: none;
+            text-align: center;
+            color: #ffffff;
+            line-height: 30px;
+        }
+
+        .left-arrow {
+            left: 0;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .right-arrow {
+            right: 0;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+
+        .left-arrow:hover,
+        .right-arrow:hover {
+            background-color: rgba(0, 0, 0, .5);
+        }
+
+        .circle {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -35px;
+            width: 70px;
+            height: 13px;
+            background-color: rgba(255, 255, 255, .3);
+            border-radius: 6.5px;
+        }
+
+        .circle li {
+            float: left;
+            width: 8px;
+            height: 8px;
+            background-color: #fff;
+            margin: 2.5px 0px 2.5px 5px;
+            border-radius: 4px;
+        }
+        .circle .current {
+            background-color: #ff5000;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <img src="images/taobao.jpg" alt="">
+
+        <!-- 左按钮 -->
+        <a href="#" class="left-arrow">&lt</a>
+
+        <!-- 右按钮 -->
+        <a href="#" class="right-arrow">&gt</a>
+
+
+        <ul class="circle">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="current"></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
