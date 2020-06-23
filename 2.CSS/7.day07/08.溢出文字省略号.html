@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08.溢出文字省略号</title>
+    <style>
+        div {
+            /* 文字省略号三步 */
+
+            /* 文字超出时换行 */
+            /* white-space: normal; */
+            /* 强制一行显示 */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            width: 150px;
+            height: 40px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div>登记卡沙发里看到卡就卡死电话卡收到垃圾</div>
+</body>
+</html>

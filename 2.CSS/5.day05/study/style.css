@@ -45,6 +45,10 @@ a {
     margin: 30px auto;
 }
 
+.header .user img {
+    vertical-align: middle;
+}
+
 .logo {
     float: left;
     margin-right: 60px;
