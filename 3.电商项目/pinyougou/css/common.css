@@ -1,0 +1,71 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+      url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+      url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style-red {
+    color: #c81623;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    color: #666666;
+    margin: 0px 12px;
+}
+
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.icomoon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header {
+    position: relative;
+    height: 105px;
+    /* background-color: red; */
+}
+
+.header h1 a {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+    /* background-color: green; */
+    background: url(../img/logo.png);
+    /* text-indent: -999px; */
+    font-size: 0px;
+}
